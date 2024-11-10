@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = '195.179.239.51';
+    private $host = '127.0.0.1';
     private $db_name = 'u719040383_workitout';
-    private $username = 'u719040383_workitout';
-    private $password = 'VmDMx$a97yKPmA';
+    private $username = 'root';
+    private $password = '';
     private $conn;
 
     public function getConnection() {
